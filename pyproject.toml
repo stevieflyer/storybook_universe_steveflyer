@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "storybook_universe_steveflyer"
+version = "0.1.0"
+description = "Introducing StoryBook Universe 🌍📚: Your AI-powered storytelling companion! Effortlessly create personalized picture books with stunning illustrations and even voiceovers for a podcast experience. Perfect for kids and adults alike, whether for bedtime stories or just some fun! 🎨🎙️"
+authors = ["stevieflyer"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+# autom = { git = "git@github.com:NaturaFlex/autom.git", branch = "main" }
+autom = { path = "/home/steve/workspace/autom" }
+
+[tool.autom]
+qualifier = "storybook_universe_steveflyer"
+name = "StoryBook Universe"
+owner_qualifier = "stevieflyer"
+owner_email = "steveflyer7@gmail.com"
+description = "Introducing StoryBook Universe 🌍📚: Your AI-powered storytelling companion! Effortlessly create personalized picture books with stunning illustrations and even voiceovers for a podcast experience. Perfect for kids and adults alike, whether for bedtime stories or just some fun! 🎨🎙️"
+python_version = "3.11"
+python_version_spec = "^3.11"
+publicity = "public"
+github_repo_url = "https://github.com/stevieflyer/storybook_universe_steveflyer.git"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
